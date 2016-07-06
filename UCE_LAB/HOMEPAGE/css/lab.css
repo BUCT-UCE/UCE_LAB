@@ -1,0 +1,126 @@
+.test{
+	background: #123456;
+	color:white;
+	width: 20%;
+	left:100;
+	
+}
+
+/*top*/
+
+html{
+
+}
+
+body{
+	position:relative;  
+	margin: 0 auto;
+	width: 1300px;
+	background: #7beec7;
+
+}
+#top-bar{
+	background: #60606e;
+	height: 50px;
+	width: 1348px;
+}
+#lab-logo{
+	position: absolute;
+	left: 60px;
+	top: 12px;
+	width: 150px;
+}
+#background{
+	width: 1348px;
+}
+
+#menu-bar{
+	position: absolute;
+	left: 331px;
+	top: 18px;
+
+
+}
+.menu-button{
+
+	color: white;
+	font-size: 15px;
+	display:inline-block;
+	width: 144px;
+}
+
+#search{
+
+	width: 200px;
+}
+
+/*block*/
+
+.section-title{
+	width: 50%;
+	margin: 0 auto 100px;
+
+
+}
+.section-title span{
+	position: relative;
+	left: -450px;
+	z-index: 1;
+	font-family: "微软雅黑", sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color:#60606e;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+
+.section-title span:after{
+	content: "";
+	background-color: #7beec7;
+	position: absolute;
+	left:-50px;
+	z-index: -1;
+	top:3px;
+	width: 20px;
+	height: 40px;
+}
+
+.section-title p{
+	position: relative;
+	line-height: 24px;
+	color:#60606e;
+	left: -300px;
+}
+
+
+/*blog */
+.blog_single{
+	position: absolute;
+
+	margin-bottom: 50px;
+}
+.blog_single:nth-last-child(-n+3){
+    
+	margin-bottom: 50px;
+}
+.blog_single > i{
+
+	display: inline-block;
+	background-color: #7beec7;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	color:white;
+	font-size: 40px;
+	margin-right: 10px;
+
+}
+.blog_single > .title{
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	color:#60606e;
+}
+
